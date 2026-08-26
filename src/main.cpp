@@ -1,8 +1,7 @@
 #include <Arduino.h> 
-#define LED_PIN 13 
+#define LED_PIN 2            // doi chan LED 
 #define SENSOR_PIN A0 
- 
-int threshold = 500; 
+int threshold = 600;      // tang nguong 
  
 void setup() { 
     pinMode(LED_PIN, OUTPUT); 
